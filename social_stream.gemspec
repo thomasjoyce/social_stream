@@ -17,6 +17,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('social_stream-linkser', '~> 0.6.1')
   s.add_runtime_dependency('social_stream-presence', '~> 0.8.3')
  
+  s.add_runtime_dependency('nokogiri', '1.5.0')
   # Development Gem dependencies
   #
   # Integration testing
