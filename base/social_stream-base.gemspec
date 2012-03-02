@@ -65,7 +65,7 @@ Gem::Specification.new do |s|
   # Development gem dependencies
   #
   # Integration testing
-  s.add_development_dependency('capybara', '~> 0.3.9')
+  s.add_development_dependency('capybara')
   # Testing database
   s.add_development_dependency('sqlite3-ruby')
   # Debugging
