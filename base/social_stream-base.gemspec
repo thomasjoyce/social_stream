@@ -74,6 +74,7 @@ Gem::Specification.new do |s|
   else
     s.add_development_dependency('ruby-debug19')
   end
+  s.add_development_dependency('nokogiri', '1.5.0')
   # Specs
   s.add_development_dependency('rspec-rails', '~> 2.6.1')
   # Fixtures
