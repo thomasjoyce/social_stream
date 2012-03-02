@@ -8,3 +8,5 @@ source "http://rubygems.org"
 # gem 'avatars_for_rails', :path => '../avatars_for_rails'
 
 gemspec
+
+gem 'nokogiri', '1.5.0'

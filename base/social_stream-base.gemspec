@@ -35,8 +35,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('cancan', '~> 1.6.4')
   # Pagination
   s.add_runtime_dependency('kaminari', '~> 0.13.0')
-  # is an HTML, XML, SAX, and Reader parser with XPath and CSS selector support
-  s.add_runtime_dependency('nokogiri', '1.5.0')
   # OAuth client
   s.add_runtime_dependency('omniauth','~> 1.0.2')
   s.add_runtime_dependency('omniauth-facebook','~> 1.2.0')
