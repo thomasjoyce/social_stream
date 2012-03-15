@@ -1,5 +1,6 @@
 require 'devise/orm/active_record'
 
+module Spree
 class User < ActiveRecord::Base
   include SocialStream::Models::Subject
 
@@ -144,6 +145,7 @@ class User < ActiveRecord::Base
     end
     
   end
+ end
 end
-
 ActiveSupport.run_load_hooks(:user, User)
+
