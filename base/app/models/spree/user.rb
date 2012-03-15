@@ -147,5 +147,5 @@ class User < ActiveRecord::Base
   end
  end
 end
-ActiveSupport.run_load_hooks(:user, User)
+ActiveSupport.run_load_hooks(:user, Spree::User)
 
