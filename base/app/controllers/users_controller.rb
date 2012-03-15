@@ -1,4 +1,4 @@
-class UsersController < ApplicationController
+class Spree::UsersController < Spree::BaseController
   include SocialStream::Controllers::Subjects
 
   load_and_authorize_resource
