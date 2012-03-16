@@ -32,13 +32,13 @@ require 'acts_as_taggable_on/social_stream'
 # HTML forms
 require 'formtastic'
 #Background tasks
-require 'resque/server'
+#require 'resque/server'
 #Simple Navigation for menu
 require 'simple-navigation'
 # Modernizr.js library
 require 'modernizr-rails'
 # Sphinx search engine
-require 'thinking-sphinx'
+#require 'thinking-sphinx'
 # Syntactically Awesome Stylesheets
 require 'sass-rails'
 # Autolink text blocks
@@ -48,4 +48,3 @@ require 'social_cheesecake'
 # I18n-js
 require 'i18n-js'
 require 'i18n-js/social_stream-base'
-
