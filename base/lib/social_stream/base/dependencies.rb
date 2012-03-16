@@ -38,7 +38,7 @@ require 'simple-navigation'
 # Modernizr.js library
 require 'modernizr-rails'
 # Sphinx search engine
-#require 'thinking-sphinx'
+require 'thinking-sphinx'
 # Syntactically Awesome Stylesheets
 require 'sass-rails'
 # Autolink text blocks
