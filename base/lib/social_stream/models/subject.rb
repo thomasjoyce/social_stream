@@ -64,13 +64,15 @@ module SocialStream
           end
         }
   
-        define_index do
-          indexes actor.name, :sortable => true
-          indexes actor.email
-          indexes actor.slug
-                
-          has created_at
-        end
+        # Commented this since it is only use by Thinking Sphinx gem
+        # See http://freelancing-god.github.com/ts/en/indexing.html
+        #define_index do
+        #  indexes actor.name, :sortable => true
+        #  indexes actor.email
+        #  indexes actor.slug
+        #        
+        #  has created_at
+        #end
       end
       
       module ClassMethods
