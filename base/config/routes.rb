@@ -1,13 +1,14 @@
 Rails.application.routes.draw do
+  
+  # Commenting this out. Not using Resque Gem for now. 
   #Background tasks
-  resque_constraint = lambda do |request|
+  #resque_constraint = lambda do |request|
     #request.env['warden'].authenticate? and request.env['warden'].user.admin?
-    true
-  end
-
-  constraints resque_constraint do
-    mount Resque::Server, :at => "/resque"
-  end
+  #  true
+  #end
+  #constraints resque_constraint do
+  #  mount Resque::Server, :at => "/resque"
+  #end
   
   root :to => "frontpage#index"
   
