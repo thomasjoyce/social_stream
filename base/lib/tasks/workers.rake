@@ -1,6 +1,6 @@
 # Rake task to launch multiple Resque workers in development/production with simple management included
-
-require 'resque/tasks'    # Require Resque tasks
+# Temporary turn off since not using resque gem
+# require 'resque/tasks'    # Require Resque tasks
 
 namespace :workers do
 
